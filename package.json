@@ -1,6 +1,6 @@
 {
   "name": "request-by-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "node http request by proxy ",
   "main": "index.js",
