@@ -53,8 +53,8 @@ const req = (target, proxy, opt = {}) => {
             'Content-Length': Buffer.byteLength(postData)
         }
     };
-    console.log(options);
-    console.log('-------------');
+    // console.log(options);
+    // console.log('-------------');
 
     return new Promise((resolve, reject) => {
         const req = http.request(options, function(res) {
