@@ -1,0 +1,22 @@
+{
+  "name": "request-by-proxy",
+  "version": "1.0.0",
+  "description": "node http request by proxy ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "request",
+    "proxy",
+    "http",
+    "node",
+    "requestProxy"
+  ],
+  "author": "zhangpeng",
+  "license": "ISC",
+  "dependencies": {
+    "url": "^0.11.0",
+    "url-parse": "^1.2.0"
+  }
+}
