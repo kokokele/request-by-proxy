@@ -7,8 +7,6 @@ const fs = require('fs');
 const url =  require('url-parse');
 const querystring = require('querystring');
 
-// const url = require('url');
-
 const req = (target, proxy, opt = {}) => {
 
     const p = url(proxy);

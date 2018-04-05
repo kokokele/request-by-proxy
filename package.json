@@ -1,6 +1,7 @@
 {
   "name": "request-by-proxy",
   "version": "1.0.0",
+  "private": false,
   "description": "node http request by proxy ",
   "main": "index.js",
   "scripts": {
@@ -10,13 +11,16 @@
     "request",
     "proxy",
     "http",
-    "node",
-    "requestProxy"
+    "node request",
+    "request proxy"
   ],
   "author": "zhangpeng",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kokokele/request-by-proxy"
+  },
+  "license": "MIT",
   "dependencies": {
-    "url": "^0.11.0",
     "url-parse": "^1.2.0"
   }
 }
